@@ -63,7 +63,7 @@ jQuery(document).ready(function($) {
 
 
 //Inject Necessary Styles and HTML
-jQuery('head').append('<link rel="stylesheet" id="colors" href="css/colors/preset.css" type="text/css" />');
+jQuery('head').append('<link rel="stylesheet" id="colors" href="css/colors/orange.css" type="text/css" />');
 jQuery('head').append('<link rel="stylesheet" href="css/color-switcher.css" type="text/css" />'); 
 
 jQuery('body').append('' + 
@@ -71,10 +71,10 @@ jQuery('body').append('' +
 		'<div>' + 
 			'<h3>Color Palette</h3>' +
 			'<ul class="colors">' +
-				'<li><a class="color1 active" href="#"></a></li>' +
+				'<li><a class="color1" href="#"></a></li>' +
 				'<li><a class="color2" href="#"></a></li>' +
 				'<li><a class="color3" href="#"></a></li>' +
-				'<li><a class="color4" href="#"></a></li>' +
+				'<li><a class="color4 active" href="#"></a></li>' +
 				'<li><a class="color5" href="#"></a></li>' +
 				'<li><a class="color6" href="#"></a></li>' +
 			'</ul>' +
